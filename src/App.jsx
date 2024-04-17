@@ -19,7 +19,7 @@ function App() {
     }
   };
   const Register = async (userData) => {
-    await axios.post(`http://localhost:3000/users/register`, userData,
+    await axios.post(`https://charityherobe.onrender.com/users/register`, userData,
       {
         headers: { "Content-Type": "multipart/form-data" }
       })
